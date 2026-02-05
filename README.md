@@ -17,7 +17,7 @@ It's a stop-gap until inter-app networking is [properly implemented in Fangtooth
 ```yaml
 services:
   dragonify:
-    image: ghcr.io/tjhorner/dragonify:main
+    image: ghcr.io/bahlo/dragonify:main
     restart: always
     environment:
       LOG_LEVEL: info # change to debug for more verbose logging
